@@ -1,0 +1,49 @@
+<form action="post.php" method="POST" class="px-8 pt-6 pb-8 mb-4 font-bold">
+    
+<div class="mb-4 lg:w-full">
+  <label for="nome" class="block text-gray-700 text-sm font-bold mb-2">Nome Completo</label>
+  <input type="text" id="nome" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+</div>
+
+<div class="mb-4 lg:w-full">
+  <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+  <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+</div>
+
+<div class="mb-4 lg:w-full">
+  <label for="telefone" class="block text-gray-700 text-sm font-bold mb-2">Telefone</label>
+  <input type="tel" id="telefone" name="telefone" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+</div>
+
+<h1 class="text-2xl mb-4 font-bold">Endereço</h1>
+
+<div class="grid grid-cols-2 gap-4">
+  <div class="mb-4 col-span-2 lg:col-span-1">
+    <label for="rua" class="block text-gray-700 text-sm font-bold mb-2">Rua</label>
+    <input type="text" id="rua" name="rua" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+  </div>
+  <div class="mb-4 col-span-2 lg:col-span-1">
+    <label for="bairro" class="block text-gray-700 text-sm font-bold mb-2">Bairro</label>
+    <input type="text" id="bairro" name="bairro" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+  </div>
+</div>
+
+<div class="grid grid-cols-3 gap-4">
+  <div class="mb-4 col-span-1">
+    <label for="cidade" class="block text-gray-700 text-sm font-bold mb-2">Cidade</label>
+    <input type="text" id="cidade" name="cidade" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+  </div>
+
+  <div class="mb-4 col-span-1">
+    <label for="estado" class="block text-gray-700 text-sm font-bold mb-2">CEP</label>
+    <input type="text" id="cep" name="cep" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+  </div>
+
+  <div class="mb-4 col-span-1">
+    <label for="cep" class="block text-gray-700 text-sm font-bold mb-2">Estado</label>
+    <input type="text" id="z" name="estado" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+  </div>
+   </div>
+   <app-buttons></app-buttons>
+
+</form>
